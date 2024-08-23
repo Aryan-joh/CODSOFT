@@ -1,0 +1,238 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryan's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7fdc683877.js" crossorigin="anonymous"></script>
+
+ </head>
+ <body>
+     <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Aryan logo.jpeg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick= "closemenu()"></i>
+                </ul>
+                
+                <i class="fa-solid fa-bars" onclick= "openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>* Web Developer, <br><span>* UI/UX Designer</span></p>
+                <h1>Hi, I'm <span>Aryan</span><br> From India...</h1>
+            </div>
+        </div>
+     </div>
+
+
+
+     <!-- ==========ABOUT=========== -->
+
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img 2.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Enthusiastic programmer and developer with a passion for open source. Actively participated in GSSOC 24, seeking
+                        to contribute in real-world projects. Proficient in Java and well-versed in data structures and algorithms. Eager to
+                        collaborate on innovative and impactful software projects.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>
+
+
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>Web Development</span><br>Website Developer</li>
+                                <li><span>My SQL</span><br>Working on Databases</li>
+                            </ul>
+                        </div>
+
+
+
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>2024 - Current</span><br>UI/UX Design Training at LU</li>
+                                <li><span>2023 - 2024</span><br>Team member of Samsung Hackathon</li>
+                                <li><span>2024 - Current</span><br>Internship at Codsoft</li>
+                            </ul>
+                        </div>
+
+
+                        
+
+
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>2023</span><br>UI/UX Design Training at LU</li>
+                                <li><span>2022 - Current</span><br>BTECH. from LU</li>
+                                
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+     </div>
+
+
+     <!-- ------services------- -->
+
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Created Amazon UI, Calculator  using HTML, CSS , JS, and using this tech stack 
+                        I have also work in open source Contribution GSSoC'24.
+
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, at necessitatibus sit odit dolor aut id ut. Odio, architecto dolor?
+
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Databases</h2>
+                    <p>MySQL database and 
+                                  1 star holder at hackerrank
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+
+
+
+     <!-- -----------------portfolio----------- -->
+
+     <div id="portfolio">
+        <div class="container">
+            <div class="sub-title">My Work</div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connect you to the talented
+                            people around the world.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connect you to the talented
+                            people around the world.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connect you to the talented
+                            people around the world.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+     </div>
+
+
+     <!-- -----------------contact------------ -->
+
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> contact@example.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 0123456789</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-square-twitter"></i></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Aryan resume 23.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>copyright © Aryan.</p>
+        </div>
+     </div>
+
+
+     <script src="script.js">
+        
+     </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby-ehS5e2owO5Zjl3y34g2ogstZirUKDUypNTvjyjdv-sJeh9tBWT6tWqVLye0Vlcfk/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+ </body>
+ </html>
